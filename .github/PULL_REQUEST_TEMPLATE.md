@@ -18,7 +18,7 @@ Please check the type of change your PR introduces:
 - [ ] Refactoring (no functional changes, no API changes)
 - [ ] Build related changes
 - [ ] Documentation updates
-- [ ] Others (please describe): 
+- [ ] Others (please describe):
 
 ### Does this introduce a breaking change?
 - [ ] Yes
@@ -32,7 +32,7 @@ Please check the type of change your PR introduces:
 
 Before submitting your PR, please make sure that:
 
-- [ ] Your PR is tagged correctly
+- [ ] Your PR is labeled correctly
 - [ ] The commit's or even all commits' message styles matches the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) specifications
 - [ ] Lint and unit tests pass locally with your changes
 - [ ] You have added tests that prove your fix is effective or that your feature works
