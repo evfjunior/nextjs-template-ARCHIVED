@@ -24,7 +24,8 @@
     "start": "next start",
     "cm": "cz",
     "lint": "eslint src --max-warnings=0",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "husky": {
     "hooks": {
