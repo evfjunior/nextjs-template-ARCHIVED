@@ -41,12 +41,14 @@
   "dependencies": {
     "next": "12.0.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.0.3",
     "@types/node": "16.11.6",
     "@types/react": "17.0.34",
+    "@types/styled-components": "^5.1.15",
     "@typescript-eslint/eslint-plugin": "^5.3.0",
     "@typescript-eslint/parser": "^5.3.0",
     "commitizen": "^4.2.4",
