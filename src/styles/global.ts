@@ -38,8 +38,8 @@ export const GlobalStyles = createGlobalStyle`
     a,
     button,
     input,
-    textarea,
-    select {
+    select,
+    textarea {
       font: inherit;
     }
 
