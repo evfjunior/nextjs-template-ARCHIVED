@@ -23,6 +23,7 @@
     "build": "next build",
     "start": "next start",
     "cm": "cz",
+    "create": "yarn plop",
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
     "typecheck": "tsc --project tsconfig.json --noEmit"
