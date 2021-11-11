@@ -26,7 +26,9 @@
     "create": "yarn plop",
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
-    "typecheck": "tsc --project tsconfig.json --noEmit"
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "storybook": "start-storybook -s ./public -p 6006 --quiet",
+    "storybook:build": "build-storybook -s ./public"
   },
   "husky": {
     "hooks": {
@@ -51,6 +53,12 @@
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
     "@next/eslint-plugin-next": "^12.0.3",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/builder-webpack5": "^6.3.12",
+    "@storybook/manager-webpack5": "^6.3.12",
+    "@storybook/react": "^6.3.12",
     "@types/node": "16.11.6",
     "@types/react": "17.0.34",
     "@types/styled-components": "^5.1.15",
@@ -76,5 +84,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "resolutions": {
+    "webpack": "5"
   }
 }
