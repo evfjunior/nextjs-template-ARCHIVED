@@ -3,9 +3,15 @@ import { render, screen } from '@testing-library/react'
 import { {{pascalCase name}} } from '.'
 
 describe('<{{pascalCase name}} />', () => {
-  it('should render the component correctly', () => {
-    render(<{{pascalCase name}} data-testid="component" />)
-    const component = screen.getByTestId('component')
+  it('should render the component and content correctly', () => {
+    render(
+      <{{pascalCase name}}>
+        <p>Lorem ipsum</p>
+      </{{pascalCase name}}>
+    )
+    const component = screen.getByRole('article')
+    const content = screen.getByText('Lorem ipsum')
     expect(component).toBeInTheDocument()
+    expect(content).toBeInTheDocument()
   })
 })
