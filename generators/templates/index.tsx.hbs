@@ -1,7 +1,9 @@
 import * as S from './styles'
 
-export function {{pascalCase name}}() {
-  return (
-    <S.Container>content</S.Container>
-  )
+export type {{pascalCase name}}Props = {
+  children: React.ReactNode
+}
+
+export function {{pascalCase name}}({ children }: {{pascalCase name}}Props) {
+  return <S.Container>{children}</S.Container>
 }

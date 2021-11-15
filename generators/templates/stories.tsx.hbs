@@ -1,10 +1,17 @@
 import { Meta, Story } from '@storybook/react'
 
-import { {{pascalCase name}} } from '.'
+import { {{pascalCase name}}, {{pascalCase name}}Props } from '.'
 
 export default {
   title: '{{pascalCase name}}',
-  component: {{pascalCase name}}
+  component: {{pascalCase name}},
+  args: {
+    children: 'string'
+  }
 } as Meta
 
-export const Default: Story = () => <{{pascalCase name}} />
+export const Default: Story<{{pascalCase name}}Props> = (args) => <{{pascalCase name}} {...args} />
+
+Default.args = {
+  children: 'Lorem ipsum'
+}
