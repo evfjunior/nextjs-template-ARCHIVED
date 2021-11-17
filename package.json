@@ -37,12 +37,6 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "yarn lint --fix",
-      "yarn prettier --write"
-    ]
-  },
   "dependencies": {
     "next": "12.0.4",
     "react": "17.0.2",
