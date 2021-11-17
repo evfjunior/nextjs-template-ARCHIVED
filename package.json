@@ -80,11 +80,6 @@
     "prettier": "^2.4.1",
     "typescript": "4.4.4"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "resolutions": {
     "webpack": "5"
   }
