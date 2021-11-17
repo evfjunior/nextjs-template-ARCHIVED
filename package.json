@@ -32,11 +32,6 @@
     "test:watch": "jest --maxWorkers=50% --watch",
     "typecheck": "tsc --project tsconfig.json --noEmit"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "next": "12.0.4",
     "react": "17.0.2",
