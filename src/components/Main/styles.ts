@@ -8,6 +8,7 @@ export const Container = styled.main`
     align-items: center;
     justify-content: center;
     padding: ${theme.spacings.xsmall};
+    height: 100vh;
 
     ${media.greaterThan('medium')`
       padding: ${theme.spacings.small};

@@ -8,8 +8,6 @@ export const Container = styled.article`
     align-items: center;
     justify-content: center;
     padding: ${theme.spacings.small};
-    border: 1px solid ${theme.colors.white};
-    border-radius: ${theme.border.radius};
     text-align: center;
 
     ${media.greaterThan('medium')`
