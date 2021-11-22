@@ -1,7 +1,7 @@
 import { createGlobalStyle, css } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
-  ${() => css`
+  ${({ theme }) => css`
     * {
       box-sizing: border-box;
       margin: 0;
@@ -27,11 +27,10 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-      background-color: #212121;
-      color: #fafafa;
-      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-      font-size: 1rem;
+      background-color: ${theme.colors.black};
+      color: ${theme.colors.white};
+      font-family: ${theme.font.family};
+      font-size: ${theme.font.sizes.small};
       scroll-behavior: smooth;
     }
 

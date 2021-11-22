@@ -29,7 +29,8 @@
     "storybook": "start-storybook -s ./public -p 6006 --quiet",
     "storybook:build": "build-storybook -s ./public",
     "test": "jest --maxWorkers=50%",
-    "test:watch": "jest --maxWorkers=50% --watch",
+    "test:ci": "jest --colors",
+    "test:watch": "jest --maxWorkers=25% --watch",
     "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
