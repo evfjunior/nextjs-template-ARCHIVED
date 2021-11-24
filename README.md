@@ -5,7 +5,7 @@
   <p>A complete project structure to create React web applications using NextJS and Typescript</p>
 </div>
 
-<div>
+<div align="center">
 
 ![NextJS](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/next?label=NextJS)
 ![React](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/react?label=React)
