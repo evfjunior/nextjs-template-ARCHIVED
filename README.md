@@ -11,6 +11,7 @@
 ![React](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/react?label=React)
 ![TypeScript](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/dev/typescript/main?label=TypeScript)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evfjunior/nextjs-template/ci)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 ![GitHub](https://img.shields.io/github/license/evfjunior/nextjs-template)
 
 </div>
@@ -23,11 +24,24 @@ This project was **heavily inspired by [@willianjusten](https://github.com/willi
 
 <hr>
 
-## Tech and Tools
+## Getting started
+
+Simply click on `Use this template` button up there and happy coding!
+
+Or you can run:
+
+```bash
+  yarn create next-app --example https://github.com/evfjunior/nextjs-template
+```
+
+<hr>
+
+## Techs and Tools
 
 - [ReactJS](https://reactjs.org)
 - [NextJS](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Yarn](https://yarnpkg.com/)
 - [Styled Components](https://styled-components.com/)
 - [Styled Media Query](https://github.com/morajabi/styled-media-query)
 - [Jest](https://jestjs.io/)
@@ -43,7 +57,7 @@ This project was **heavily inspired by [@willianjusten](https://github.com/willi
 
 <hr>
 
-## Scripts
+## Commands
 
 - `dev`: runs the development server on `localhost:3000`
 - `build`: creates the production build
@@ -58,8 +72,8 @@ This project was **heavily inspired by [@willianjusten](https://github.com/willi
 
 <hr>
 
-## Copyright
-
-&copy; 2021 - [MIT License](LICENSE)
+<div align="center">
 
 Made with ❤️ by [evfjunior](https://github.com/evfjunior)
+
+</div>
