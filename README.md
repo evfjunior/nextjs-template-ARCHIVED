@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src=".github/assets/undraw-nextjs-illustration.svg" alt="Illustration of a girl with NextJS logo on her right side">
 
-## Getting Started
+  <h1>NextJS Template</h1>
+  <p>A complete project structure to create React web applications using NextJS and Typescript</p>
 
-First, run the development server:
+![LICENSE](https://img.shields.io/github/license/evfjunior/nextjs-template?color=%2300C853&logo=MIT)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<hr>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Introduction
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+This project was **heavily inspired by [@willianjusten](https://github.com/willianjusten) and his online course [React Avançado](https://www.udemy.com/course/react-avancado/)**. But it also brings a lot of improvements as a result of my own research and evolution throughout the years.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<hr>
 
-## Learn More
+## Tech and Tools
 
-To learn more about Next.js, take a look at the following resources:
+- [ReactJS](https://reactjs.org)
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Styled Media Query](https://github.com/morajabi/styled-media-query)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Storybook](https://storybook.js.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+- [Lint Staged](github.com/okonet/lint-staged)
+- [Commitizen](https://commitizen-tools.github.io/commitizen/)
+- [Commitlint](https://commitlint.js.org/)
+- [Plop](https://plopjs.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<hr>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Scripts
 
-## Deploy on Vercel
+- `dev`: runs the development server on `localhost:3000`
+- `build`: creates the production build
+- `start`: starts a demo build
+- `commit`: commit changes using commitizen-cli
+- `generate`: runs Plop to generate files
+- `lint`: runs the code linter
+- `storybook`: runs Storybook on `localhost:6006`
+- `storybook:build`: creates the Storybook build
+- `test`: runs Jest
+- `test:watch`: runs Jest in watch mode
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<hr>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Copyright
+
+&copy; 2021 - [MIT License](LICENSE)
+
+Made with ❤️ by [evfjunior](https://github.com/evfjunior)
