@@ -3,8 +3,15 @@
 
   <h1>NextJS Template</h1>
   <p>A complete project structure to create React web applications using NextJS and Typescript</p>
+</div>
 
-![LICENSE](https://img.shields.io/github/license/evfjunior/nextjs-template?color=%2300C853&logo=MIT)
+<div>
+
+![NextJS](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/next?label=NextJS)
+![React](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/react?label=React)
+![TypeScript](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/dev/typescript/main?label=TypeScript)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evfjunior/nextjs-template/ci)
+![GitHub](https://img.shields.io/github/license/evfjunior/nextjs-template)
 
 </div>
 
