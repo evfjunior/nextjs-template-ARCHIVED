@@ -7,12 +7,12 @@
 
 <div align="center">
 
-![NextJS](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/next?label=NextJS)
-![React](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/react?label=React)
-![TypeScript](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/dev/typescript/main?label=TypeScript)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evfjunior/nextjs-template/ci)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-![GitHub](https://img.shields.io/github/license/evfjunior/nextjs-template)
+![NextJS](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/next?color=212121&logo=Next.js&style=for-the-badge)
+![React](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/react?color=61dbfb&logo=React&style=for-the-badge)
+![TypeScript](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/dev/typescript/main?color=007acc&logo=Typescript&style=for-the-badge)
+![Build](https://img.shields.io/github/workflow/status/evfjunior/nextjs-template/ci?style=for-the-badge&logo=Github)
+![Commitizen](https://img.shields.io/badge/commitizen-friendly-brightgreen?style=for-the-badge&logo=)
+![License](https://img.shields.io/github/license/evfjunior/nextjs-template?style=for-the-badge)
 
 </div>
 
@@ -63,8 +63,8 @@ Or you can run:
 - `build`: creates the production build
 - `start`: starts a demo build
 - `commit`: commit changes using commitizen-cli
-- `generate`: runs Plop to generate files
-- `lint`: runs the code linter
+- `generate`: runs Plop to generate a component file structure
+- `lint`: runs ESLint against the `src` folder
 - `storybook`: runs Storybook on `localhost:6006`
 - `storybook:build`: creates the Storybook build
 - `test`: runs Jest
