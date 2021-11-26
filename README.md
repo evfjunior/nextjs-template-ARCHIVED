@@ -63,8 +63,8 @@ Or you can run:
 - `build`: creates the production build
 - `start`: starts a demo build
 - `commit`: commit changes using commitizen-cli
-- `generate`: runs Plop to generate files
-- `lint`: runs the code linter
+- `generate`: runs Plop to generate a component file structure
+- `lint`: runs ESLint against the `src` folder
 - `storybook`: runs Storybook on `localhost:6006`
 - `storybook:build`: creates the Storybook build
 - `test`: runs Jest
