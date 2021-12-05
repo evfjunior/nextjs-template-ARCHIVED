@@ -23,7 +23,7 @@
     "build": "next build",
     "start": "next start",
     "commit": "cz",
-    "generate": "yarn plop",
+    "generate": "plop",
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
     "storybook": "start-storybook -s ./public -p 6006 --quiet",
