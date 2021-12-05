@@ -5,6 +5,8 @@ updates:
     schedule:
       interval: 'weekly'
       day: 'sunday'
+      time: '07:00'
+      timezone: 'America/Recife'
     labels:
       - github_actions
 
@@ -13,6 +15,9 @@ updates:
     schedule:
       interval: 'weekly'
       day: 'sunday'
+      time: '07:00'
+      timezone: 'America/Recife'
+    rebase-strategy: 'disabled'
     open-pull-requests-limit: 10
     labels:
       - dependencies
