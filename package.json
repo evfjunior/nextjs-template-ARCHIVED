@@ -58,7 +58,7 @@
     "@types/react": "17.0.38",
     "@types/styled-components": "^5.1.19",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
-    "@typescript-eslint/parser": "^5.7.0",
+    "@typescript-eslint/parser": "^5.10.2",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^2.0.2",
     "commitizen": "^4.2.4",
